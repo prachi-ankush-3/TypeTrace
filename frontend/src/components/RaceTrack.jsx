@@ -1,0 +1,1 @@
+import{motion}from"framer-motion";export default function RaceTrack({you,ghost}){return <div className="race-track"><div className="lane"><span>YOU</span><div><motion.i animate={{width:`${you}%`}}/></div></div><div className="lane ghost-lane"><span>GHOST</span><div><motion.i animate={{width:`${ghost}%`}}/></div></div></div>}

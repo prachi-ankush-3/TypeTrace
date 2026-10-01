@@ -1,0 +1,2 @@
+import{motion}from"framer-motion";
+export default function Atmosphere(){return <><div className="grain"/><div className="scanlines"/><div className="vignette"/><div className="dust">{Array.from({length:18},(_,i)=><i key={i} style={{"--i":i}}/>)}</div><motion.div className="fog fog-a" animate={{x:[-20,30,-20],opacity:[.06,.12,.06]}} transition={{duration:18,repeat:Infinity}}/><motion.div className="fog fog-b" animate={{x:[30,-20,30],opacity:[.04,.09,.04]}} transition={{duration:23,repeat:Infinity}}/></>}

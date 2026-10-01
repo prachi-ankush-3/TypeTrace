@@ -1,0 +1,2 @@
+import{Outlet,useLocation}from"react-router-dom";import{AnimatePresence,motion}from"framer-motion";import Navbar from"./Navbar";import Atmosphere from"./Atmosphere";
+export default function Layout(){const loc=useLocation();return <><Atmosphere/><Navbar/><AnimatePresence mode="wait"><motion.main key={loc.pathname} initial={{opacity:0,filter:"blur(4px)",x:8}} animate={{opacity:1,filter:"blur(0)",x:0}} exit={{opacity:0,filter:"blur(3px)",x:-8}} transition={{duration:.35}}><Outlet/></motion.main></AnimatePresence></>}
