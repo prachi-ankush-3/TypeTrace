@@ -149,7 +149,7 @@ Your fastest run becomes tomorrow's opponent.
 ## 👩‍💻 Built By
 
 **Prachi Ankush**
-Computer Engineering Student — VIT Pune
+Computer Engineering (Software Engineering) Student — VIT Pune
 
 ---
 
